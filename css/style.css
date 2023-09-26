@@ -1,0 +1,136 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+html {
+  --palette-color-0: rgb(255,255,255);
+  --palette-color-1: rgb(255,255,255);
+  --palette-color-2: rgb(255,255,255);
+  --palette-color-3: rgb(255,255,255);
+  --palette-color-4: rgb(255,255,255);
+  --light-shade: var(--palette-color-0);
+  --light-accent: var(--palette-color-1);
+  --main: var(--palette-color-2);
+  --dark-accent: var(--palette-color-3);
+  --dark-shades: var(--palette-color-4);
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-shade);
+}
+#generator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+#palette {
+  display: grid;
+  grid-template-columns:repeat(5, 1fr);
+  border: 2px solid #fff;
+}
+#palette div {
+  height: 200px;
+  width: 150px;
+}
+#palette span {
+  background-color: #fff;
+}
+#light-shades {
+  background-color: var(--light-shade);
+}
+#light-accent {
+  background-color: var(--light-accent);
+}
+#main {
+  background-color: var(--main);
+}
+#dark-accent {
+  background-color: var(--dark-accent);
+}
+#dark-shades {
+  background-color: var(--dark-shades);
+}
+header {
+  background-color: var(--light-accent);
+  color: var(--main);
+  padding: 20px;
+  text-align: center;
+}
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--main);
+}
+
+h2 {
+  font-size: 24px;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px 10px;
+  width: max-content;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  color: var(--dark-accent);
+}
+
+/* Navigation menu styles */
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+a {
+  color: var(--main);
+}
+/* Project section styles */
+.project {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: var(--dark-shades);
+  color: #000;
+  border: 1px solid #ddd;
+}
+
+/* Footer styles */
+footer {
+  background-color: var(--light-accent);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
