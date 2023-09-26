@@ -1,5 +1,5 @@
 # Cocktail Recipes Web Application
-A website offering numerous cocktail recipes from the CocktailDB API, simplifying the discovery and preparation of various beverages.
+[description]
 
 **Link to project:**
 
