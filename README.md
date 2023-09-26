@@ -3,7 +3,7 @@ A website offering numerous cocktail recipes from the CocktailDB API, simplifyin
 
 **Link to project:**
 
-![screenshot of cocktail recipes web application](http://placecorgi.com/1200/650)
+![screenshot of cocktail recipes web application](https://raw.githubusercontent.com/ChristineLuBean/color-generator/main/screenshot/color_palette_generator.png)
 
 ## How It's Made:
 
