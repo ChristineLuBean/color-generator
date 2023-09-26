@@ -2,7 +2,7 @@
 // Fetches data from the specified URL and performs actions based on the response.
 function getFetch() {
 
-  const url = "https://colormind.io/api/";
+  const url = "http://colormind.io/api/";
   const data = {
     model : "default",
   }
